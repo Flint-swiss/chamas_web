@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chamabondo Primary School in Victoria Falls, Zimbabwe - Big beginnings. Brighter futures." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Chamabondo Primary School | Victoria Falls, Zimbabwe</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <div class="nav__brand">
+          <span class="nav__wordmark">Chamabondo Primary School</span>
+        </div>
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__links" id="navMenu">
+          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#admissions">Admissions</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <p class="hero__eyebrow">CHAMABONDO PRIMARY SCHOOL</p>
+            <p class="hero__location">VICTORIA FALLS, ZIMBABWE</p>
+            <h1 class="hero__title" id="heroTitle">Big beginnings. Brighter futures.</h1>
+            <p class="hero__description">
+              Discover the people, experiences and school community that make Chamabondo Primary School special.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#about">Discover Our School</a>
+              <a class="btn btn--secondary" href="#contact">Get in Touch</a>
+            </div>
+          </div>
+          <div class="hero__media">
+            <div class="photo-gallery" id="photoGallery" role="region" aria-label="School photo gallery">
+              <div class="photo-card photo-card--large" id="photoCardLarge">
+                <img class="photo-card__image" id="photoImageLarge" src="" alt="" />
+              </div>
+              <div class="photo-card photo-card--small" id="photoCardSmall">
+                <img class="photo-card__image" id="photoImageSmall" src="" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section__title">About</h2>
+          <p class="section__text">More information coming soon.</p>
+        </div>
+      </section>
+
+      <section id="admissions" class="section section--alt">
+        <div class="container">
+          <h2 class="section__title">Admissions</h2>
+          <p class="section__text">Information about admissions coming soon.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__text">Contact details coming soon.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="site-footer__text">© <span id="year"></span> Chamabondo Primary School. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
